@@ -23,7 +23,6 @@ function loadData() {
     let imgSrc = googleMapUrl + street + ", " + city + "&key=" + googleApiKey;
     $body.append('<img class="bgimg" src="'+imgSrc+'">');
 
-
 // The New York Times Developer Network - [ http://developer.nytimes.com ]
 
     var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
@@ -77,3 +76,4 @@ return false;
 };
 
 $('#form-container').submit(loadData);
+
